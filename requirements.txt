@@ -1,0 +1,12 @@
+# 移除不存在的 clust-learn==1.6.1
+# 适配 Python 3.13 的版本组合
+streamlit>=1.30.0
+joblib>=1.3.2
+numpy>=1.26.0  # 升级到支持 Python 3.13 的版本
+pandas>=2.1.0   # 升级到支持 Python 3.13 的版本
+shap>=0.44.0
+matplotlib>=3.8.0
+lime>=0.2.0.1
+scikit-learn>=1.3.0  # 补充随机森林依赖
+# 补充缺失的 distutils 替代（Python 3.12+ 兼容）
+setuptools>=65.5.0
